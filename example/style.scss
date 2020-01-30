@@ -1,0 +1,17 @@
+.density-proto-ui-data-table {
+    border-collapse: collapse;
+
+    th, td {
+        padding: 8px 16px;
+        border: 1px solid #efefef;
+    }
+
+    th {
+        background-color: #ecedef;
+    }
+
+    thead th {
+        text-align: left;
+        font-weight: bold;
+    }
+}

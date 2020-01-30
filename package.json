@@ -1,0 +1,26 @@
+{
+  "name": "@density/proto-ui-data-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-install-peers && parcel example/index.html"
+  },
+  "author": "Density",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3-array": "^2.0.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "d3-array": "^2.4.0",
+    "npm-install-peers": "^1.2.1",
+    "parcel-bundler": "^1.12.4",
+    "react-dom": "^16.12.0",
+    "sass": "^1.25.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
+}
